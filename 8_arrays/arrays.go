@@ -18,4 +18,10 @@ func main(){
 /*var vals [4]bool
 vals[2] = true 
 fmt.Println(vals)*/
+// 2D array
+
+num := [2][2]int{{3,4},{5,6}}
+
+fmt.Println(num)
+
 }
