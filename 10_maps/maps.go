@@ -11,9 +11,10 @@ func main() {
 
 	//setting an element
 	m["name"] = "go lang"
+	m["version"] = "1.19"
 
 	//get an element
 
-	fmt.Println(m["name"])
+	fmt.Println(m["name"], m["version"])
 }
 	
