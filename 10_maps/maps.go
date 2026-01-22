@@ -1,7 +1,7 @@
 package main
 
 import "fmt"
-
+ 
 //maps -> hash,objrct, dict
 
 func main() {
