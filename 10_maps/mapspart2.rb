@@ -13,7 +13,7 @@ prices = [100, 200, 300]
 prices.map do |p|
   p - (p * 0.1)
 end
-# => [90.0, 180.0, 270.0]
+# => [90.0, 180.0, 270.0] its better to use do...end for multi-line blocks
 
 # Map with hash
 users = { alice: 21, bob: 25 }
