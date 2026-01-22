@@ -18,4 +18,4 @@ func main() {
 	fmt.Println(m["name"], m["version"])
 }
 
- 
+    
