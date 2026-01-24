@@ -1,0 +1,1 @@
+console.log("Enums in JavaScript can be simulated using objects or the `Object.freeze` method to create immutable enumerations.");
