@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Go Weather App</title>
+</head>
+<body>
+    <h1>Weather App 🌤️</h1>
+
+    <form action="/weather" method="GET">
+        <input type="text" name="city" placeholder="Enter city name" required>
+        <button type="submit">Get Weather</button>
+    </form>
+
+    {{if .Name}}
+        <h2>Weather in {{.Name}}</h2>
+        <p>Temperature: {{.Main.Temp}} °C</p>
+        <p>Humidity: {{.Main.Humidity}} %</p>
+        <p>Condition: {{index .Weather 0).Description}}</p>
+    {{end}}
+</body>
+</html>
