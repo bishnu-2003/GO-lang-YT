@@ -22,7 +22,7 @@ type WeatherResponse struct {
 
 func homeHandler(w http.ResponseWriter, r *http.Request) {
 	tmpl := template.Must(template.ParseFiles("templates/index.html"))
-	tmpl.Execute(w, nil)
+	tmpl.Execute(w, nil) 
 }
 
 func weatherHandler(w http.ResponseWriter, r *http.Request) {
